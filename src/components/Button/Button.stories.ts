@@ -9,6 +9,9 @@ const meta: Meta<typeof Button> = {
     label: "Click me !",
     disabled: false,
   },
+  parameters: {
+    layout: "centered",
+  },
 };
 
 export default meta;
